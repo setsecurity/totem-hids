@@ -1,10 +1,10 @@
 # README
 
 
-Proyect Totem-HIDS for fun and profit.
+Totem-HIDS for fun and profit.
 
 
-Its a python3 Host IDS that detects network spoofing attacks.
+It's a python3 Host IDS that detects network spoofing attacks.
 
 
 Notes:
