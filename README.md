@@ -1,12 +1,17 @@
 # README
+
+
 Proyect Totem-HIDS for fun and profit.
+
+
 Its a python3 Host IDS that detects network spoofing attacks.
 
 
-This project is not stable, do not use it in production.
-The objetive of this proyect is research and testing.
-This project is not maintained.
-All effort goes to the Totem Network IDS version.
+Notes:
+* This project is not stable, do not use it in production.
+* The objetive of this proyect is research and testing.
+* This project is not maintained.
+* All effort goes to the Totem Network IDS version (coming soon).
 
 
 Installation:
@@ -42,6 +47,4 @@ Old version detected attacks (deprecated):
 * IPv6 NDP spoofing
 * IPv6 SLAAC attack
 * IPv6 DHCP rogue server
-
-
 
