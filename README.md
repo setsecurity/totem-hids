@@ -24,8 +24,10 @@ Installation:
 Usage:
 * python3 main.py eth0
 
-POCs:
 
+POCs:
+* https://www.youtube.com/watch?v=xKs0nUS4kVY
+* https://www.youtube.com/watch?v=SLm385BowaY
 
 
 Detected attacks:
@@ -47,4 +49,9 @@ Old version detected attacks (deprecated):
 * IPv6 NDP spoofing
 * IPv6 SLAAC attack
 * IPv6 DHCP rogue server
+
+Old POCs:
+* https://www.youtube.com/watch?v=r7DxZAyjUAw
+* https://www.youtube.com/watch?v=XpEQNY0ozAE
+
 
