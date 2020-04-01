@@ -26,8 +26,8 @@ Usage:
 
 
 POCs:
-* https://www.youtube.com/watch?v=xKs0nUS4kVY
-* https://www.youtube.com/watch?v=SLm385BowaY
+* ARP spoogin: https://www.youtube.com/watch?v=xKs0nUS4kVY
+* DHCP ACK injection: https://www.youtube.com/watch?v=SLm385BowaY
 
 
 Detected attacks:
