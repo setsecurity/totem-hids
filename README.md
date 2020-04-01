@@ -1,2 +1,2 @@
-# totem-hids
-python3 host IDS for network spoofing attacks
+# README
+Proyect Totem-HIDS for fun and profit
