@@ -1,11 +1,13 @@
 # README
-Proyect Totem-HIDS for fun and profit
-Its a python3 Host IDS that detects network spoofing attacks
+Proyect Totem-HIDS for fun and profit.
+Its a python3 Host IDS that detects network spoofing attacks.
 
-this project is not stable, do not use it in production
-the objetive of this proyect is research and testing
-this project is not maintained
-all effort goes to the Totem Network IDS version
+
+This project is not stable, do not use it in production.
+The objetive of this proyect is research and testing.
+This project is not maintained.
+All effort goes to the Totem Network IDS version.
+
 
 Installation:
 sudo apt-get install python3 python3-dev
