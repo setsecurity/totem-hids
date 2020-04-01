@@ -1,0 +1,67 @@
+2017-05-19 09:31:24 Thread-1 -> stderr: Exception in thread Thread-1:
+2017-05-19 09:31:24 Thread-1 -> stderr: Traceback (most recent call last):
+2017-05-19 09:31:24 Thread-1 -> stderr:   File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+2017-05-19 09:31:24 Thread-1 -> stderr:     self.run()
+2017-05-19 09:31:24 Thread-1 -> stderr:   File "/usr/lib/python3.5/threading.py", line 862, in run
+2017-05-19 09:31:24 Thread-1 -> stderr:     self._target(*self._args, **self._kwargs)
+2017-05-19 09:31:24 Thread-1 -> stderr:   File "/usr/lib/python3/dist-packages/kivy/input/providers/mtdev.py", line 219, in _thread_run
+2017-05-19 09:31:24 Thread-1 -> stderr:     _device = Device(_fn)
+2017-05-19 09:31:24 Thread-1 -> stderr:   File "/usr/lib/python3/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+2017-05-19 09:31:24 Thread-1 -> stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+2017-05-19 09:31:24 Thread-1 -> stderr: PermissionError: [Errno 13] Permission denied: '/dev/input/event8'
+2017-05-19 09:31:24 Thread-1 -> stderr: 
+2017-05-19 09:31:37 MainThread -> stderr: Traceback (most recent call last):
+2017-05-19 09:31:37 MainThread -> stderr:   File "/home/croco/PycharmProjects/Totem/main.py", line 13, in <module>
+2017-05-19 09:31:37 MainThread -> stderr:     gui.run()
+2017-05-19 09:31:37 MainThread -> stderr:   File "/usr/lib/python3/dist-packages/kivy/app.py", line 829, in run
+2017-05-19 09:31:37 MainThread -> stderr:     self.stop()
+2017-05-19 09:31:37 MainThread -> stderr:   File "/usr/lib/python3/dist-packages/kivy/app.py", line 837, in stop
+2017-05-19 09:31:37 MainThread -> stderr:     self.dispatch('on_stop')
+2017-05-19 09:31:37 MainThread -> stderr:   File "kivy/_event.pyx", line 718, in kivy._event.EventDispatcher.dispatch (kivy/_event.c:7699)
+2017-05-19 09:31:37 MainThread -> stderr:   File "/home/croco/PycharmProjects/Totem/gui/gui.py", line 250, in on_stop
+2017-05-19 09:31:37 MainThread -> stderr:     self.protection.stop()
+2017-05-19 09:31:37 MainThread -> stderr:   File "/home/croco/PycharmProjects/Totem/protection/protection.py", line 44, in stop
+2017-05-19 09:31:37 MainThread -> stderr:     self.sniffer.stop = True
+2017-05-19 09:31:37 MainThread -> stderr: AttributeError: 'Protection' object has no attribute 'sniffer'
+2017-05-19 09:31:58 Thread-1 -> stderr: Exception in thread Thread-1:
+2017-05-19 09:31:58 Thread-1 -> stderr: Traceback (most recent call last):
+2017-05-19 09:31:58 Thread-1 -> stderr:   File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+2017-05-19 09:31:58 Thread-1 -> stderr:     self.run()
+2017-05-19 09:31:58 Thread-1 -> stderr:   File "/usr/lib/python3.5/threading.py", line 862, in run
+2017-05-19 09:31:58 Thread-1 -> stderr:     self._target(*self._args, **self._kwargs)
+2017-05-19 09:31:58 Thread-1 -> stderr:   File "/usr/lib/python3/dist-packages/kivy/input/providers/mtdev.py", line 219, in _thread_run
+2017-05-19 09:31:58 Thread-1 -> stderr:     _device = Device(_fn)
+2017-05-19 09:31:58 Thread-1 -> stderr:   File "/usr/lib/python3/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+2017-05-19 09:31:58 Thread-1 -> stderr:     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+2017-05-19 09:31:58 Thread-1 -> stderr: PermissionError: [Errno 13] Permission denied: '/dev/input/event8'
+2017-05-19 09:31:58 Thread-1 -> stderr: 
+2017-05-19 09:32:12 Thread-3 -> stderr: Exception in thread Thread-3:
+2017-05-19 09:32:12 Thread-3 -> stderr: Traceback (most recent call last):
+2017-05-19 09:32:12 Thread-2 -> stderr: Exception in thread Thread-2:
+2017-05-19 09:32:12 Thread-3 -> stderr:   File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+2017-05-19 09:32:12 Thread-2 -> stderr: Traceback (most recent call last):
+2017-05-19 09:32:12 Thread-3 -> stderr:     self.run()
+2017-05-19 09:32:12 Thread-2 -> stderr:   File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+2017-05-19 09:32:12 Thread-3 -> stderr:   File "/home/croco/PycharmProjects/Totem/protection/arp_protection_init.py", line 52, in run
+2017-05-19 09:32:12 Thread-2 -> stderr:     self.run()
+2017-05-19 09:32:12 Thread-3 -> stderr:     response = srp1(request, timeout=2, iface=self.interface, verbose=0)
+2017-05-19 09:32:12 Thread-2 -> stderr:   File "/home/croco/PycharmProjects/Totem/protection/sniffer.py", line 88, in run
+2017-05-19 09:32:12 Thread-3 -> stderr:   File "/usr/local/lib/python3.5/dist-packages/scapy/sendrecv.py", line 385, in srp1
+2017-05-19 09:32:12 Thread-2 -> stderr:     sniff(iface=interface,prn=self.packet_callback,count=0,stop_filter=self.stop_filter)
+2017-05-19 09:32:12 Thread-3 -> stderr:     a,b=srp(*args,**kargs)
+2017-05-19 09:32:12 Thread-2 -> stderr:   File "/usr/local/lib/python3.5/dist-packages/scapy/sendrecv.py", line 574, in sniff
+2017-05-19 09:32:12 Thread-3 -> stderr:   File "/usr/local/lib/python3.5/dist-packages/scapy/sendrecv.py", line 367, in srp
+2017-05-19 09:32:12 Thread-2 -> stderr:     s = L2socket(type=ETH_P_ALL, *arg, **karg)
+2017-05-19 09:32:12 Thread-3 -> stderr:     s = conf.L2socket(iface=iface, filter=filter, nofilter=nofilter, type=type)
+2017-05-19 09:32:12 Thread-2 -> stderr:   File "/usr/local/lib/python3.5/dist-packages/scapy/arch/linux.py", line 468, in __init__
+2017-05-19 09:32:12 Thread-3 -> stderr:   File "/usr/local/lib/python3.5/dist-packages/scapy/arch/linux.py", line 423, in __init__
+2017-05-19 09:32:12 Thread-2 -> stderr:     self.ins = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(type))
+2017-05-19 09:32:12 Thread-3 -> stderr:     self.ins = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(type))
+2017-05-19 09:32:12 Thread-2 -> stderr:   File "/usr/lib/python3.5/socket.py", line 134, in __init__
+2017-05-19 09:32:12 Thread-3 -> stderr:   File "/usr/lib/python3.5/socket.py", line 134, in __init__
+2017-05-19 09:32:12 Thread-2 -> stderr:     _socket.socket.__init__(self, family, type, proto, fileno)
+2017-05-19 09:32:12 Thread-3 -> stderr:     _socket.socket.__init__(self, family, type, proto, fileno)
+2017-05-19 09:32:12 Thread-2 -> stderr: PermissionError: [Errno 1] Operation not permitted
+2017-05-19 09:32:12 Thread-3 -> stderr: PermissionError: [Errno 1] Operation not permitted
+2017-05-19 09:32:12 Thread-2 -> stderr: 
+2017-05-19 09:32:12 Thread-3 -> stderr: 
