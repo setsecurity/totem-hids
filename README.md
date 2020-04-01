@@ -26,8 +26,9 @@ Usage:
 
 
 POCs:
-* ARP spoogin: https://www.youtube.com/watch?v=xKs0nUS4kVY
+* ARP spoofing: https://www.youtube.com/watch?v=xKs0nUS4kVY
 * DHCP ACK injection: https://www.youtube.com/watch?v=SLm385BowaY
+* LLMNR spoofing: https://www.youtube.com/watch?v=3RBNlWK28oE
 
 
 Detected attacks:
