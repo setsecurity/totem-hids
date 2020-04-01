@@ -1,7 +1,7 @@
 # README
 
 
-Totem-HIDS for fun and profit.
+Totem-HIDS for fun.
 
 
 It's a python3 Host IDS that detects network spoofing attacks.
